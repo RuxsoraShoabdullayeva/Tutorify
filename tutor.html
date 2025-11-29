@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutors</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <header class="header">
+        <div class="container">
+            <div class="header__wrap">
+                <h3 class="logo">Tutorify</h3>
+                <nav class="header__menu">
+                    <a href="./index.html" class="menu__link">Home</a>
+                    <a href="#" class="menu__link">Lessons</a>
+                    <a href="#" class="menu__link">Find Tutor</a>
+                    <a href="#" class="menu__link">About Us</a>
+                    <button class="btn btn__login">Login</button>
+                    <button class="btn btn__sign-up">Sign Up</button>
+                </nav>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+           <hr>
+        </div>
+    </header>
+
+    <main>
+    <section class="search">
+        <div class="container">
+            <div class="search__wrap">
+                <div class="search__inputs">
+                    <div class="inputs__wrap">
+                            <i class="fa-solid fa-search"></i>
+                            <input class="search__input" type="text" placeholder="Lesson Name">
+                            <input class="search__input" type="text" placeholder="Tutor Name">
+                        <button class="btn btn-search"><i class="fa-solid fa-search"></i>Search</button>
+                    </div>
+
+                     <div class="inputs__wrap">
+                            <i class="fa-solid fa-eye"></i>
+                            <input class="search__input" type="text" placeholder="Popular Lesson">
+                            <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+
+                <div class="search__btns">
+                    <button class="btn btn-types">Also speaks</button>
+                    <button class="btn btn-types">From</button>
+                    <button class="btn btn-types">Price</button>
+                    <button class="btn btn-types">Native speaker</button>
+                    <button class="btn btn-types">Teacher types</button>
+                    <button class="btn btn-types">Category</button>
+                    <button class="btn btn-types">Instant lesson</button>
+                    <button class="btn btn-types">Availabillity</button>
+                    <button class="btn btn-types">Auto-accept</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tutors">
+        <div class="container">
+            <ul class="tutors__list">
+                <li class="tutors__item">
+                    <img class="tutor__img" src="./src/tutor1.jpg" alt="Tutor image">
+                    <div class="heading">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <p class="number">20 Lessons</p>
+                    </div>
+                    <div class="tutor-info__wrap">
+                         <div class="tutor-info__row">
+                        <h3 class="tutor__name">Brooklyn Simmons</h3>
+                        <p class="rating">4.9 Rating</p>
+                    </div>
+                    <div class="tutor-info__row">
+                        <p class="grey-txt">Community Tutor</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="tutor-info__wrap">
+                        <h4 class="black-txt">Speaks</h4>
+                        <div class="tutor-info__row">
+                            <p class="grey-txt">English - <span>Native</span> | Spanish- <span>Native</span></p>
+                        </div>
+                    </div>
+
+                    <div class="tutor-info__wrap">
+                        <div class="tutor-info__row">
+                            <h4 class="black-txt">30 Min Trial</h4>
+                            <h4 class="black-txt">Hourly Rate From</h4>
+                        </div>
+                         <div class="tutor-info__row">
+                            <p class="grey-txt">IDR - 85,730.10</p>
+                            <p class="grey-txt">IDR - 485,730.10</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="tutor-info__row">
+                        <div class="heading">
+                        <i class="fa-solid fa-user"></i>
+                        <p class="number">120 Students</p>
+                        </div>
+                        <button class="btn btn-book">Book</button>
+                    </div>
+                </li>
+
+                <li class="tutors__item">
+                    <div class="both">
+                        <p class="one">Profile</p>
+                        <p class="two">Schedule</p>
+                    </div>
+                     <div class="tutor-img__wrap">
+                        <img class="tutor__desc-img" src="./src/tutor1.jpg" alt="Tutor description vd/img">
+                       <i class="fa-regular fa-circle-play"></i>
+                    </div>
+                    <h3 class="item__title">Description</h3>
+                    <p class="item__cont">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Feugiat aliquam integer sit mauris sit. <br> Pellentesque urna, adipiscing at aliquam tempor non. <br> Lectus bibendum sollicitudin aliquet id...</p>
+                    <button class="btn btn-read">Read more</button>
+                </li>
+
+                 <li class="tutors__item">
+                    <img class="tutor__img" src="./src/tutor2.jpg" alt="Tutor image">
+                    <div class="heading">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <p class="number">20 Lessons</p>
+                    </div>
+                    <div class="tutor-info__wrap">
+                         <div class="tutor-info__row">
+                        <h3 class="tutor__name">Theresa Webb</h3>
+                        <p class="rating">4.9 Rating</p>
+                    </div>
+                    <div class="tutor-info__row">
+                        <p class="grey-txt">Community Tutor</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="tutor-info__wrap">
+                        <h4 class="black-txt">Speaks</h4>
+                        <div class="tutor-info__row">
+                            <p class="grey-txt">English - <span>Native</span> | Spanish- <span>Native</span></p>
+                        </div>
+                    </div>
+
+                    <div class="tutor-info__wrap">
+                        <div class="tutor-info__row">
+                            <h4 class="black-txt">30 Min Trial</h4>
+                            <h4 class="black-txt">Hourly Rate From</h4>
+                        </div>
+                         <div class="tutor-info__row">
+                            <p class="grey-txt">IDR - 85,730.10</p>
+                            <p class="grey-txt">IDR - 485,730.10</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="tutor-info__row">
+                        <div class="heading">
+                        <i class="fa-solid fa-user"></i>
+                        <p class="number">120 Students</p>
+                        </div>
+                        <button class="btn btn-book">Book</button>
+                    </div>
+                </li>
+
+                <li class="tutors__item">
+                    <div class="both">
+                        <p class="one">Profile</p>
+                        <p class="two">Schedule</p>
+                    </div>
+                    <div class="tutor-img__wrap">
+                        <img class="tutor__desc-img" src="./src/tutor2.jpg" alt="Tutor description vd/img">
+                       <i class="fa-regular fa-circle-play"></i>
+                    </div>
+                    <h3 class="item__title">Description</h3>
+                    <p class="item__cont">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Feugiat aliquam integer sit mauris sit. <br> Pellentesque urna, adipiscing at aliquam tempor non. <br> Lectus bibendum sollicitudin aliquet id...</p>
+                    <button class="btn btn-read">Read more</button>
+                </li>
+
+                 <li class="tutors__item">
+                    <img class="tutor__img" src="./src/tutor3.jpg" alt="Tutor image">
+                    <div class="heading">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <p class="number">20 Lessons</p>
+                    </div>
+                    <div class="tutor-info__wrap">
+                         <div class="tutor-info__row">
+                        <h3 class="tutor__name">Kathryn Murphy</h3>
+                        <p class="rating">4.9 Rating</p>
+                    </div>
+                    <div class="tutor-info__row">
+                        <p class="grey-txt">Community Tutor</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="tutor-info__wrap">
+                        <h4 class="black-txt">Speaks</h4>
+                        <div class="tutor-info__row">
+                            <p class="grey-txt">English - <span>Native</span> | Spanish- <span>Native</span></p>
+                        </div>
+                    </div>
+
+                    <div class="tutor-info__wrap">
+                        <div class="tutor-info__row">
+                            <h4 class="black-txt">30 Min Trial</h4>
+                            <h4 class="black-txt">Hourly Rate From</h4>
+                        </div>
+                         <div class="tutor-info__row">
+                            <p class="grey-txt">IDR - 85,730.10</p>
+                            <p class="grey-txt">IDR - 485,730.10</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="tutor-info__row">
+                        <div class="heading">
+                        <i class="fa-solid fa-user"></i>
+                        <p class="number">120 Students</p>
+                        </div>
+                        <button class="btn btn-book">Book</button>
+                    </div>
+                </li>
+
+                <li class="tutors__item">
+                    <div class="both">
+                        <p class="one">Profile</p>
+                        <p class="two">Schedule</p>
+                    </div>
+                    <div class="tutor-img__wrap">
+                        <img class="tutor__desc-img" src="./src/tutor3.jpg" alt="Tutor description vd/img">
+                       <i class="fa-regular fa-circle-play"></i>
+                    </div>
+                    <h3 class="item__title">Description</h3>
+                    <p class="item__cont">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Feugiat aliquam integer sit mauris sit. <br> Pellentesque urna, adipiscing at aliquam tempor non. <br> Lectus bibendum sollicitudin aliquet id...</p>
+                    <button class="btn btn-read">Read more</button>
+                </li>
+
+                 <li class="tutors__item">
+                    <img class="tutor__img" src="./src/tutor4.jpg" alt="Tutor image">
+                    <div class="heading">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <p class="number">20 Lessons</p>
+                    </div>
+                    <div class="tutor-info__wrap">
+                         <div class="tutor-info__row">
+                        <h3 class="tutor__name">Marvin McKinney</h3>
+                        <p class="rating">4.9 Rating</p>
+                    </div>
+                    <div class="tutor-info__row">
+                        <p class="grey-txt">Community Tutor</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="tutor-info__wrap">
+                        <h4 class="black-txt">Speaks</h4>
+                        <div class="tutor-info__row">
+                            <p class="grey-txt">English - <span>Native</span> | Spanish- <span>Native</span></p>
+                        </div>
+                    </div>
+
+                    <div class="tutor-info__wrap">
+                        <div class="tutor-info__row">
+                            <h4 class="black-txt">30 Min Trial</h4>
+                            <h4 class="black-txt">Hourly Rate From</h4>
+                        </div>
+                         <div class="tutor-info__row">
+                            <p class="grey-txt">IDR - 85,730.10</p>
+                            <p class="grey-txt">IDR - 485,730.10</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="tutor-info__row">
+                        <div class="heading">
+                        <i class="fa-solid fa-user"></i>
+                        <p class="number">120 Students</p>
+                        </div>
+                        <button class="btn btn-book">Book</button>
+                    </div>
+                </li>
+
+                <li class="tutors__item">
+                    <div class="both">
+                        <p class="one">Profile</p>
+                        <p class="two">Schedule</p>
+                    </div>
+                     <div class="tutor-img__wrap">
+                        <img class="tutor__desc-img" src="./src/tutor4.jpg" alt="Tutor description vd/img">
+                       <i class="fa-regular fa-circle-play"></i>
+                    </div>
+                    <h3 class="item__title">Description</h3>
+                    <p class="item__cont">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Feugiat aliquam integer sit mauris sit. <br> Pellentesque urna, adipiscing at aliquam tempor non. <br> Lectus bibendum sollicitudin aliquet id...</p>
+                    <button class="btn btn-read">Read more</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    </main>
+
+     <footer class="footer">
+        <div class="container">
+            <div class="footer__wrap">
+                <div class="footer__menu">
+                <h3 class="logo">Tutorify</h3>
+                 <p class="footer__info">Learn more than just <br>a language</p>
+                 <div class="footer__media">
+                     <div class="icon__wrap"><a href="#" class="media__link"><i class="fa-brands fa-google"></i>   </a> </div>
+                    <div class="icon__wrap"> <a href="#" class="media__link"><i class="fa-brands fa-twitter"></i>  </a> </div>
+                    <div class="icon__wrap"> <a href="#" class="media__link"><i class="fa-brands fa-instagram"></i></a>  </div>
+                    <div class="icon__wrap"> <a href="#" class="media__link"><i class="fa-brands fa-linkedin"></i> </a>  </div>
+                 </div>
+                </div>
+
+                <div class="footer__menu">
+                    <h4 class="menu__title">Find Teacher</h4>
+                    <a href="#" class="menu__link">English Teachers</a>
+                    <a href="#" class="menu__link">Chinese Teachers</a>
+                    <a href="#" class="menu__link">French Teachers</a>
+                    <a href="#" class="menu__link">Spanish Teachers</a>
+                    <a href="#" class="menu__link">Other Teachers</a>
+                </div>
+
+                <div class="footer__menu">
+                    <h4 class="menu__title">Lessons</h4>
+                    <a href="#" class="menu__link">Learn English</a>
+                    <a href="#" class="menu__link">Learn Chinese</a>
+                    <a href="#" class="menu__link">Learn French</a>
+                    <a href="#" class="menu__link">Learn Spanish</a>
+                    <a href="#" class="menu__link">Learn More Languages</a>
+                </div>
+
+                <div class="footer__menu">
+                    <h4 class="menu__title">Company</h4>
+                    <a href="#" class="menu__link">About</a>
+                    <a href="#" class="menu__link">How it Works</a>
+                    <a href="#" class="menu__link">Term</a>
+                    <a href="#" class="menu__link">Privacy Policy</a>
+                </div>
+
+                <div class="footer__menu">
+                    <h4 class="menu__title">More</h4>
+                    <a href="#" class="menu__link">Documentation</a>
+                    <a href="#" class="menu__link">License</a>
+                </div>
+
+            </div>
+
+            <div class="experience">
+                <p class="menu__title">Copyright © 2021. Created with love.</p>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>

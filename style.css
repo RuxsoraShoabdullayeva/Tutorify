@@ -15,6 +15,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+body{
+    scroll-behavior: smooth;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -506,6 +510,11 @@
   gap: 10px;
 }
 
+.media__link{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
 .icon__wrap {
   width: 42px;
   height: 42px;
@@ -514,7 +523,6 @@
   align-items: center;
   border-radius: 50%;
   background-color: #F3BA5D;
-  color: var(--white-color);
   font-size: 16px;
 }
 
@@ -611,6 +619,240 @@
    right: -60px;
 }
 }
+
+
+
+
+
+/* Page - search Tutors */
+
+/* search */
+.search{
+    padding: 10px 0;
+}
+
+.search__wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.search__inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search__input:nth-child(2){
+    border-right: 2px solid #cccccc;
+}
+
+.search__input::placeholder{
+    color: #cccccc;
+}
+
+.inputs__wrap .fa-solid{
+    color: #cccccc;
+}
+
+.inputs__wrap{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0px -1.24px 15.77px 0px #00000018;
+    box-shadow: 0px -2.56px 32.49px 0px #0000001E;
+}
+
+.inputs__wrap:nth-child(2){
+    padding: 20px;
+}
+
+.inputs__wrap:nth-child(2) .search__input{
+    border: none;
+}
+
+.search__input{
+    width: 200px;
+    border: none;
+    outline: none;
+}
+
+.btn-search{
+    width: 245px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--orange);
+    color: var(--white-color);
+}
+
+.btn-search .fa-solid{
+    color: var(--white-color);
+}
+
+
+.search__btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-types{
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 300;
+    box-shadow: 0px -0.24px 3.06px 0px #0000000D;
+    box-shadow: 0px -0.61px 7.73px 0px #00000013;
+    box-shadow: 0px -1.24px 15.77px 0px #00000018;
+    background-color: var(--white-color);
+}
+
+.btn-types:nth-child(1),
+.btn-types:nth-child(6){
+    color: var(--white-color);
+    background-color: var(--orange);
+}
+
+
+/* tutors */
+.tutors{
+    padding: 40px 0;
+}
+
+.tutors__list{
+    width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin:  auto;
+}
+
+.tutors__item{
+    box-shadow: 0px -0.24px 3.06px 0px #0000000D;
+    box-shadow: 0px -0.61px 7.73px 0px #00000013;
+    box-shadow: 0px -1.24px 15.77px 0px #00000018;
+    box-shadow: 0px -2.56px 32.49px 0px #0000001E; 
+    box-shadow: 0px -7px 89px 0px #0000002B;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tutor__img{
+    width: 354px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 10px; 
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.heading .fa-solid{
+    font-size: 24px;
+}
+
+.tutor-info__wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.tutor-info__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tutor__name{
+    color: var(--black-color);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.black-txt{
+    color: var(--black-color);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.grey-txt{
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.grey-txt span{
+    color: var(--orange);
+}
+
+.btn-book{
+    background-color: var(--green);
+}
+
+.both{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.one{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--orange);
+}
+
+.two{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.heading:nth-child(1){
+    color: var(--orange);
+    font-weight: 600;
+}
+
+.btn-read{
+    align-self: flex-end;
+    background-color: var(--green);
+}
+
+.tutor__desc-img{
+    width: 410px;
+    height: 260px;
+    border-radius: 10px;
+    object-fit: cover;
+    filter: saturate(0.7);
+}
+
+.tutor-img__wrap{
+    position: relative;
+}
+
+
+.tutor-img__wrap .fa-regular{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;       /* ikonka o‘lchami */
+  color: white;          /* ikonka rangi */
+  cursor: pointer;
+}
+
+
+
 
 
 
