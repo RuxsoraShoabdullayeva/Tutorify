@@ -506,6 +506,10 @@ body{
     color: var(--white-color);
 }
 
+.accordion .arrow{
+    display: none;
+}
+
 .icon__wrap {
   width: 42px;
   height: 42px;
@@ -1148,5 +1152,9 @@ body{
     margin-top: -40px;
     text-align: center;
   }
+
+  .accordion .arrow{
+    display: block;
+}
 
 }
