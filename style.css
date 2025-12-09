@@ -1104,7 +1104,7 @@ body{
   }
 
   .footer__menu:first-child {
-    padding-bottom: 10px;
+    padding-bottom: 40px;
   }
 
   .acc-toggle {
@@ -1143,10 +1143,10 @@ body{
     transform: rotate(180deg);
   }
 
-  .footer .menu__link {
-    font-size: 15px;
-    font-weight: 300;
-    color: var(--white-color);
+  .experience .menu__title{
+    font-size: 14px;
+    margin-top: -40px;
+    text-align: center;
   }
 
 }
